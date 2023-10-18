@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>National Disaster and Relief Commission | Home</title>
+    <link rel="stylesheet" type="text/css" href="./components.css" />
+    <link rel="stylesheet" type="text/css" href="./global.css" />
+  </head>
+  <body>
+    <!-- The header -->
+    <div class="nav">
+      <div class="container">
+        <div class="header-container">
+          <a href="index.html">
+            <h1 class="site-logo">NDRC</h1>
+          </a>
+
+          <nav>
+            <div class="nav-menu">
+              <img src="./Images/menu.svg" alt="Gaint Gym" />
+            </div>
+            <div class="bg-overlay"></div>
+            <ul class="nav-list">
+              <div class="nav-close">
+                <img src="./Images/x.svg" alt="" />
+              </div>
+
+              <div class="nav-list-container">
+                <li><a class="nav-link" href="./index.html">Home</a></li>
+                <li><a class="nav-link" href="./services.html">Services</a></li>
+                <li><a class="nav-link" href="./about.html">About</a></li>
+                <li><a class="nav-link" href="./contact.html">Contact</a></li>
+                <li><a id="primary-btn" href="signup.html">Sign Up</a></li>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- End The header -->
+
+    <!-- signup form -->
+    <div class="container">
+      <div class="section">
+        <div class="form-container" data-aos="fade-up">
+          <form action="practice.php" method="post">
+            <div class="firstname-container">
+              <input
+                type="text"
+                name="firstName"
+                required
+                placeholder="First Name"
+              />
+            </div>
+            <div class="lastname-container">
+              <input
+                type="text"
+                name="lastName"
+                required
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="email-container">
+              <input
+                type="email"
+                name="useremail"
+                required
+                placeholder="Email"
+              />
+            </div>
+            <div class="password-container">
+              <input
+                type="password"
+                name="userpasword"
+                required
+                placeholder="Password"
+              />
+            </div>
+            <div class="info-container">
+              <p>
+                Already a member? <a href="#"><b>Log In</b></a>
+              </p>
+            </div>
+            <div class="signup-btn-container">
+              <input type="submit" name="signup-btn" value="Sign Up" />
+            </div>
+            <p>
+              If an error occurs when filling a form, a message will show here.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End signup form -->
+
+    <!-- Contact us -->
+    <div class="contact-bg">
+      <div class="container">
+        <div class="section">
+          <div id="contact" class="contact-container">
+            <h4>Call Us Today</h4>
+            <h1>+231-880-943-438</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis cupiditate a consequuntur est, error voluptas
+              accusantium minima esse earum! Alias?
+            </p>
+            <a href="" class="schedule-btn">Actual Schedule</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer-wrapper">
+          <a href="./index.html" class="footer-link">Home</a>
+          <a href="./services.html" class="footer-link">Services</a>
+          <a href="./about.html" class="footer-link">About</a>
+          <a href="./contact.html" class="footer-link">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <!-- End contact us -->
+    <script src="./script.js"></script>
+  </body>
+</html>
